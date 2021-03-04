@@ -7,6 +7,19 @@
   <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
   <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
   <style>
+    #grid {
+      display:grid;
+      grid-template-columns: 300px 1fr;
+      align-items: center;
+    }
+    @media(max-width:600px) {
+      #grid {
+        display: block;
+      }
+    }
+    h1, ul {
+      font-family: 'DX몽블랑라운드', cursive;
+    }
     body {
       background-image: linear-gradient(MediumSlateBlue, pink);
       background-repeat: no-repeat;
@@ -16,22 +29,39 @@
       color:black;
       text-decoration: none;
     }
-    ul {
-      font-size: 32px;
-      font-family: 'East Sea Dokdo', cursive;
-    }
     h1 {
       font-size:40px;
-      font-family: 'East Sea Dokdo', cursive;
+    }
+    ul {
+      font-size: 20px;
+      margin-top: 40px; margin-bottom: 70px;
+    }
+    footer {
+      position: fixed;
+      text-align: center;
+      bottom: 10px;
+      width: 100%;
+      color: gray;
     }
   </style>
 </head>
 <body>
-  <h1><a href="intro.html"><font color="white">Main</font></a></h1>
-    <ul>
-      <li><a href="fav.html">My favorite things💜</a></li>
-      <li><a href="contact.html"><strong>Contact me✨</strong></a></li>
-    </ul>
-  <i class="far fa-paper-plane fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <i class="fab fa-instagram fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <i class="far fa-keyboard fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h1><a href="intro.html"><font color="white">↼</font></a></h1>
+  <div id="grid">
+    <div>
+      <ul>
+        <li><a href="fav.html">My favorite things💜</a></li>
+        <li><a href="contact.html"><font color="white"><i>Contact me✨</i></font></a></li>
+      </ul>
+    </div>
+    <center>
+    <div>
+    <i class="far fa-paper-plane fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="fab fa-instagram fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <i class="far fa-keyboard fa-6x"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </div></center>
+  </div>
+</body>
+<footer>
+  <small><center>&copy;Copyright 2021 JAEEUN LEE</center></small>
+</footer>

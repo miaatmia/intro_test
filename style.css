@@ -1,0 +1,47 @@
+h1, ul {
+font-family: 'DX몽블랑라운드', cursive;
+text-align: center;
+}
+body {
+  background-image: url('bg.jpg');
+  background-repeat: space;
+}
+a {
+  color:black;
+  text-decoration: none;
+}
+h1 {
+  font-size: 50px;
+  display: block; margin: 0px auto;
+}
+ul {
+  font-size:24px;
+  display: table; margin-left: auto; margin-right: auto; margin-top: 80px; margin-bottom: 100px;
+  list-style: none;
+  background: linear-gradient(to right, skyblue, #FFE08B);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.welcome {
+  background-color: white;
+  background-color: rgba( 255, 255, 255, 0.2 );
+  text-align: center;
+}
+p {
+  font-family: 'Noto sans KR Medium', cursive;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  opacity: 70%;
+  border: 0px solid gray;
+  padding: 20px;
+}
+img {
+  display: block; margin: 30px auto; border-radius: 50%;
+}
+footer {
+  text-align: center;
+  bottom: 10px;
+  width: 100%;
+  color: gray;
+}
