@@ -1,5 +1,5 @@
 h1, ul {
-font-family: 'DX몽블랑라운드', cursive;
+font-family: 'East Sea Dokdo', cursive;
 text-align: center;
 }
 body {
@@ -11,11 +11,11 @@ a {
   text-decoration: none;
 }
 h1 {
-  font-size: 50px;
+  font-size: 90px;
   display: block; margin: 0px auto;
 }
 ul {
-  font-size:24px;
+  font-size:40px;
   display: table; margin-left: auto; margin-right: auto; margin-top: 80px; margin-bottom: 100px;
   list-style: none;
   background: linear-gradient(to right, skyblue, #FFE08B);
@@ -28,9 +28,9 @@ ul {
   text-align: center;
 }
 p {
-  font-family: 'Noto sans KR Medium', cursive;
+  font-family: 'Noto Sans KR:wght@400', cursive;
   text-align: center;
-  font-size: 18px;
+  font-size: 16px;
   color: white;
   opacity: 70%;
   border: 0px solid gray;
